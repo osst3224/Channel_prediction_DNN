@@ -1,2 +1,3 @@
 # Channel_prediction_DNN
-Comparison between popular deep neural networks in channel prediction.
+The performance of modern wireless communications systems depends critically on the quality of the available channel state information (CSI) at the transmitter and receiver. Several previous works have proposed concepts and algorithms that help maintain high quality CSI even in the presence of high mobility and channel aging, such as temporal prediction schemes that employ neural networks. However, it is still unclear which neural network-based scheme provides the best performance in terms of prediction quality, training complexity and practical feasibility. To investigate such a question, this work compare five neural networks networks in terms of prediction quality.
+MLP, CNN, LSTM, GRU and the transformer model are compared to the Kalman filter to invesigate the ability of data-driven approaches in channel prediction. 
